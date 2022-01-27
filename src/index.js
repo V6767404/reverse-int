@@ -14,3 +14,13 @@ module.exports = function reverse (n) {
     return result;
   
 }
+
+// return Number(Math.abs(n).toString().split('').reverse().join('')
+// return +(('' + Math.abs(n)).split('').reverse().join(''))
+/*
+return +Math.abs(n)
+.toString()
+.split('')
+.reverse()
+.join('');
+*/
